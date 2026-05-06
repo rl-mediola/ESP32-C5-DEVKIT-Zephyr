@@ -52,7 +52,10 @@
                 ],
                 "problemMatcher": [
                     "$gcc"
-                ]
+                ],
+                "presentation": {
+                    "focus": true
+                }
             },
             {
                 "label": "GUIconfig",
