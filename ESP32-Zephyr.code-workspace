@@ -41,6 +41,30 @@
                 "problemMatcher": [
                     "$gcc"
                 ]
+            },
+            {
+                "label": "Menuconfig",
+                "type": "shell",
+                "command": "ninja",
+                "args": [
+                    "-C${command:cmake.buildDirectory}",
+                    "menuconfig"
+                ],
+                "problemMatcher": [
+                    "$gcc"
+                ]
+            },
+            {
+                "label": "GUIconfig",
+                "type": "shell",
+                "command": "ninja",
+                "args": [
+                    "-C${command:cmake.buildDirectory}",
+                    "guiconfig"
+                ],
+                "problemMatcher": [
+                    "$gcc"
+                ]
             }
         ]
     }
