@@ -9,6 +9,7 @@
         "cmake.configureArgs": [
             "-DBOARD=esp32c5_devkitc/esp32c5/hpcore"
         ],
+        "cmake.configureOnOpen": false,
         "cmake.options.statusBarVisibility": "visible",
         "cmake.environment": {
             "PATH": "${env:HOME}/zephyrproject/.venv/bin:${env:PATH}",
