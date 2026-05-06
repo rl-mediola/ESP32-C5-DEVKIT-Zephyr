@@ -7,7 +7,7 @@
     "settings": {
         "editor.formatOnSave": true,
         "cmake.configureOnOpen": false,
-        "cmake.options.statusBarVisibility": "visible",
+        "cmake.options.statusBarVisibility": "icon",
         "cmake.environment": {
             "PATH": "${env:HOME}/zephyrproject/.venv/bin:${env:PATH}",
             "ZEPHYR_BASE": "${env:HOME}/zephyrproject/zephyr",
@@ -25,13 +25,14 @@
             "ms-vscode.vscode-serial-monitor",
             "cheshirekow.cmake-format",
             "mhutchie.git-graph",
+            "zandr.statusbar-tasks",
         ]
     },
     "tasks": {
         "version": "2.0.0",
         "tasks": [
             {
-                "label": "West Flash",
+                "label": "⚡",
                 "type": "shell",
                 "command": "west",
                 "args": [
