@@ -2,10 +2,13 @@
     "version": 3,
     "configurePresets": [
         {
-            "name": "Zephyr",
-            "displayName": "Zephyr Preset",
+            "name": "esp32c5_devkitc",
+            "displayName": "ESP32-C5-DevKitC",
             "binaryDir": "${sourceDir}/build",
-            "generator": "Ninja"
+            "generator": "Ninja",
+            "cacheVariables": {
+                "BOARD": "esp32c5_devkitc/esp32c5/hpcore"
+            }
         }
     ]
 }

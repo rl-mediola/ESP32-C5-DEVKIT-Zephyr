@@ -2,5 +2,5 @@ rm -rf build/
 west build --board esp32c5_devkitc/esp32c5/hpcore --build-dir build
 
 # riscv64-zephyr-elf
-# cmake -GNinja -Bbuild -DBOARD=esp32c5_devkitc/esp32c5/hpcore
+# cmake --preset esp32c5_devkitc
 # cmake --build build/
